@@ -1,0 +1,15 @@
+{
+  "name": "monorepo-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "mobile": "yarn workspace mobile"
+  },
+  "workspaces": [
+    "shared",
+    "mobile",
+    "server"
+  ]
+}
