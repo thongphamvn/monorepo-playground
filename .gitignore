@@ -1,6 +1,1 @@
 node_modules/**/*
-npm-debug.*
-hooks/*
-info/*
-objects/*
-refs/*

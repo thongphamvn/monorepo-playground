@@ -5,11 +5,15 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "mobile": "yarn workspace mobile"
+    "mobile": "yarn workspace mobile",
+    "shared": "yarn workspace shared",
+    "web-app": "yarn workspace web-app",
+    "server": "yarn workspace server"
   },
   "workspaces": [
     "shared",
     "mobile",
-    "server"
+    "server",
+    "web-app"
   ]
 }
